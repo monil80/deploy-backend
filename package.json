@@ -1,0 +1,27 @@
+{
+  "name": "aura-api",
+  "version": "1.0.0",
+  "description": "design pattern ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec ts-node src/index.ts",
+    "production": "nodemon dist/index.js",
+    "build": "tsc"
+  },
+  "author": "monil",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.1.2",
+    "@types/nodemailer": "^6.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "install": "^0.13.0",
+    "nodemailer": "^6.9.2",
+    "nodemon": "^2.0.22",
+    "npm": "^9.6.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
